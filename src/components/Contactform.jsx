@@ -25,7 +25,7 @@ export const ContactForm = () => {
 
   return (
     <div>
-        <h2 class="text-center my-5 display-5 fw-bold">Contact Me</h2>
+        <h2 class="text-center my-2 display-5 fw-bold">Contact Me</h2>
         <form ref={form} onSubmit={sendEmail}>
           <div class="rounded container px-4 pt-2 pb-5 w-50 my-5 col-lg-6 col-sm-12 bg-body-secondary" id="contact">
               <div class="row my-5">

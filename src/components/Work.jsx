@@ -1,7 +1,7 @@
 
 export default function Work() {
     return (
-      <div class="container pt-5" id="work">
+      <div class="container pt-5">
         <div class="p-5 mb-4 bg-body-tertiary rounded-3">
           <div class="container-fluid py-5">
             <h1 class="display-5 fw-bold">Education</h1>
@@ -9,7 +9,7 @@ export default function Work() {
             <p class="col-md-8 fs-4">University of St. La Salle (2013)</p>
           </div>
         </div>
-        <h2 class="text-center display-6 fw-bold text-body-emphasis">Work Experience</h2>
+        <h2 class="text-center display-6 fw-bold text-body-emphasis pt-5" id="work">Work Experience</h2>
         <div class="row align-items-md-stretch">
           <div class="col-md-6 py-2 hover-work">
             <div class="h-100 p-5 text-bg-dark rounded-3">

@@ -2,8 +2,8 @@ import newprofile from "../../public/images/Newprofile.jpg"
 
 export default function Hero() {
     return (       
-        <div class="container col-xxl-8 px-4 py-5">
-            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="container col-xxl-8 px-4 pt-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 pt-5">
             <div class="col-sm-11 col-lg-6">
                 <img src={newprofile} class="d-block mx-lg-auto img-fluid img-thumbnail" alt="People at the construction site" width="700" height="500" loading="lazy" />            
             </div>
