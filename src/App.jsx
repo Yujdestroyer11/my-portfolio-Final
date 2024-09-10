@@ -2,21 +2,23 @@ import Skills from "./components/Skills"
 import About from "./components/About"
 import Projects from "./components/Project"
 import Work from "./components/Work"
-import Resume from "./components/Resume"
+import Header from "./components/Header"
+import Hero from "./components/Hero"
+import Footer from "./components/Footer"
 import Contact from "./components/Contact"
-import Certificate from "./components/Certificate"
 
 export default function App() {
 
   return (
       <div>
+        <Header />
+        <Hero />
         <Skills/>
         <About />
         <Projects />
         <Work />
-        <Resume />
-        <Certificate />
         <Contact />
+        <Footer />
       </div>
   );
 }

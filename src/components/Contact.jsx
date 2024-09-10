@@ -1,16 +1,9 @@
-import ContactInfo from "./Contactinfo";
+import { ContactForm } from './Contactform';
 
 export default function Contact() {
-  return (
-    <div className="main-container">
-      <h2 className="h2Align kanit fw-bold text-body-emphasis" id="contact">
-        Contact Me
-      </h2>
-      <div className="top-container">
-        <div className="midContact-container rubik">
-          <ContactInfo />
+    return (
+        <div>
+           <ContactForm />     
         </div>
-      </div>
-    </div>
-  );
-}
+      )
+};
